@@ -1,4 +1,5 @@
 const container = document.getElementById("container");
+const gridItem = document.getElementsByClassName('grid-item');
 
 function makeRows(rows, cols) {
   container.style.setProperty('--grid-rows', rows);
@@ -12,3 +13,5 @@ function makeRows(rows, cols) {
 }
 
 makeRows(16, 16);
+
+gridItem.addEventListener('hover', )
